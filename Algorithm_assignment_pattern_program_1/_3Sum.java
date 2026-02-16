@@ -44,4 +44,28 @@ public class _3Sum {
 			}
 		}
 	}
-}
+	
+	
+	
+//	 public static String rearrangeWords(String s) {
+//
+//	    	String[] s1=s.trim().toLowerCase().split("\\s");
+//	    	
+//	    	List<String> s2=new ArrayList<>();
+//	   
+//	    	for(int i=0;i<s1.length;i++) {
+//	    		int minLength=Integer.MAX_VALUE;
+//	    		for(String temp:s1) {
+//	    			if(minLength>temp.length() && !s2.contains(temp)) {
+//	    				minLength=temp.length();
+//	    				s2.add(i,temp);
+//	    			}
+//	    		}
+//	    	}
+//	    	s="";
+//	    	for(String a:s2) {
+//	    	s+=a+" ";
+//	    	}
+//			return s;
+//	    }
+//}
