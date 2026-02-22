@@ -14,6 +14,7 @@ public class SortColors75 {
 		for(int a:nums1) {
 			System.out.print(a+" ");
 		}
+
 	}
 	private static void sortColor(int[] nums) {
 		int left=0,
