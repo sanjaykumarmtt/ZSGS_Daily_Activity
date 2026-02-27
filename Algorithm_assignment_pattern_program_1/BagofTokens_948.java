@@ -8,6 +8,7 @@ public class BagofTokens_948 {
 		int tokens[] = {100,200,300,400},power = 200,
 			tokens1[] = {100}, power1 = 50,
 			tokens2[] = {200,100}, power2 = 150;
+		
 		System.out.println(bagOfTokensScore(tokens,power));
 		System.out.println(bagOfTokensScore(tokens1,power1));
 		System.out.println(bagOfTokensScore(tokens2,power2));

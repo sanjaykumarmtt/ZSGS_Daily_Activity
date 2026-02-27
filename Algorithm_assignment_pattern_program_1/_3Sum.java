@@ -12,9 +12,10 @@ public class _3Sum {
 		threeSum(nums,list);
 		System.out.println(list);
 	}
+	// [[-1, -1, 2],[-1, -1, 2], [-1, 0, 1]]     -3,  -3  ,  -2,  -1  ,0  ,  0  ,3
 	public static void threeSum(int nums[],List<List<Integer>> list) {
 		Arrays.sort(nums);
-		
+		// -4,-1,-1,0,1,2  lr=6;
 		for(int i=0;i<nums.length-2;i++) {
 			if(i>0 && nums[i]==nums[i-1])
 				continue;
@@ -28,20 +29,23 @@ public class _3Sum {
 					list1.add(nums[i]);
 					list1.add(nums[left]);
 					list1.add(nums[rigth]);
+					
 					list.add(list1);
-					//list.add(Arrays.asList(nums[i], nums[left], nums[rigth]));
+
 					 while(left<rigth && nums[left]==nums[left+1]) left++;
 					 while(left<rigth && nums[rigth]==nums[rigth-1]) rigth--;
 					 left++;
 					 rigth--;
+					 
 					 
 				}else if(sum<0) {
 					left++;
 				}else {
 					rigth--;
 				}
+				//
 				
 			}
 		}	
 	}
-}
+}					//list.add(Arrays.asList(nums[i], nums[left], nums[rigth]));

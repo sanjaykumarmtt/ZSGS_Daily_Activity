@@ -24,6 +24,7 @@ public class TrappingRainWater42 {
 			int minValue=Math.min(left, reght[i]);
 			int temp=Math.max(0, minValue);
 			totalTrapWatter+=temp-height[i];
+			
 			left=(height.length>i+1)?Math.max(left,height[i+1]):left;
 		}
 		

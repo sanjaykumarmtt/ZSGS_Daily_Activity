@@ -11,7 +11,9 @@ public class ReverseVowelsofString345 {
 	public static String reverseVowels(String s) {
 		int left = 0, right = s.length() - 1;
 		char[] newArray = s.toCharArray();
+		
 		String vowels = "aeiouAEIOU";
+		
 		while (left < right) {
 			while (left < right && vowels.indexOf(newArray[left]) == -1)
 				left++;

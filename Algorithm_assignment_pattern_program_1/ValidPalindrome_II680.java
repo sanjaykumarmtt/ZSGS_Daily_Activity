@@ -3,7 +3,9 @@ package Algorithm_assignment_pattern_program_1;
 public class ValidPalindrome_II680 {
 
 	public static void main(String[] args) {
-		String s = "aba", s1 = "abca",s2 = "abc";
+		String s = "aba",
+				s1 = "abca",
+				s2 = "abc";
 		System.out.println(isValidPalindrome(s));
 		System.out.println(isValidPalindrome(s1));
 		System.out.println(isValidPalindrome(s2));
@@ -35,6 +37,7 @@ public class ValidPalindrome_II680 {
 				return false;
 			}
 		}
+		
 		return true;
 	}
 }
