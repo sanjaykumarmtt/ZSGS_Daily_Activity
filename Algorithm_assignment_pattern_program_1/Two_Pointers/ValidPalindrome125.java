@@ -1,4 +1,4 @@
-package Algorithm_assignment_pattern_program_1;
+package Algorithm_assignment_pattern_program_1.Two_Pointers;
 
 public class ValidPalindrome125 {
 
