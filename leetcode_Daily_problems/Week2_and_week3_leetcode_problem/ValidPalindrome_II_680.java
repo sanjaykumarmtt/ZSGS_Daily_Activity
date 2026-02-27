@@ -1,4 +1,4 @@
-package leetcode_Daily_problems;
+package leetcode_Daily_problems.Week2_and_week3_leetcode_problem;
 public class ValidPalindrome_II_680 {
 	public static void main(String[] args) {
 		String s = "aba",s1 = "abca";

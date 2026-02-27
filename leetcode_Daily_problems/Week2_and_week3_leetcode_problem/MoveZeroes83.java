@@ -1,4 +1,4 @@
-package leetcode_Daily_problems;
+package leetcode_Daily_problems.Week2_and_week3_leetcode_problem;
 
 public class MoveZeroes83 {
 
