@@ -8,11 +8,9 @@ public class HouseRobber_198 {
 		System.out.println(rob(nums));
 		System.out.println(rob(nums1));
 	}
-	
 	public static int rob(int[] nums) {
-		
 		int rob1=0,
-			rob2=0;
+			rob2=0;	
 		
 		for(int i=0;i<nums.length;i++) {
 			
@@ -21,8 +19,6 @@ public class HouseRobber_198 {
 			rob1=rob2;
 			rob2=currentRobHome;		
 		}
-		
 		return rob2;
 	}
-	
 }
