@@ -8,8 +8,9 @@ public class ReturnTheSumOfTheThreeIntegers {
 
 	public static void main(String[] args) {
 		int nums1[] = { -1, 2, 1, -4 },
-			target1 = 1;
+			target1 = 1, nums2[] = {0,0,0}, target2 = 1;
 		System.out.println("Output = "+SumOfTheThreeIntegers(nums1,target1));
+		System.out.println("Output = "+SumOfTheThreeIntegers(nums2,target2));
 	}
 
 	public static int SumOfTheThreeIntegers(int nums[],int terget) {
@@ -21,23 +22,24 @@ public class ReturnTheSumOfTheThreeIntegers {
 				closestToTerget.add(nums[i]+nums[i+1]+nums[i+2]);
 			}
 		}
-		
 		System.out.println(closestToTerget);
 		
-		int[] temp=new int[closestToTerget.size()];
 		
-		int closestSum=Integer.MAX_VALUE;
+		
+		int closestSum=Integer.MAX_VALUE,minum=0;
 		
 		for(int j=0;j<closestToTerget.size();j++) {
-			temp[j]=Math.abs(closestToTerget.get(j) - terget);
+			int temp1=Math.abs(closestToTerget.get(j) - terget);
 			
-			System.out.println(temp[j]+",");
+			if(closestSum>temp1) {
+				closestSum=temp1;
+				minum=closestToTerget.get(j);
+			}
+			
+			System.out.println(temp1+",");
 		}
 		
-		for(int j:temp) {
-			closestSum=Math.min(closestSum,j);
-		}
-		return closestSum+terget;
+		return minum;
 	}
 }
 

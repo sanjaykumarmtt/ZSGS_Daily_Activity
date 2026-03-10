@@ -1,5 +1,4 @@
 package Algorithm_assignment_pattern_program_1.Sliding_Window;
-
 import java.util.Arrays;
 
 public class RemoveDuplicatesfromSortedArray_26 {
