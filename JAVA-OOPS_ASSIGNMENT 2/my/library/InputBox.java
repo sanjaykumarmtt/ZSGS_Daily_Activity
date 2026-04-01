@@ -7,10 +7,6 @@ public class InputBox{
 	 
 	 
 	public String setInput() {
-		
-		s.next();
-		s.nextInt();
-		
 		return s.nextLine();
 	}
 	
