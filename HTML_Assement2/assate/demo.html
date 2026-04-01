@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Marksheet Table</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #b38600; /* கோல்டன் பிரவுன் பார்டர் */
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #d9a04a;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th { color: #800000; font-size: 14px; }
+        
+        /* இடது பக்கம் அலைன் செய்ய வேண்டியவை */
+        .left-align { text-align: left; padding-left: 15px; }
+        
+        /* தலைப்பு நிறம் மற்றும் ஸ்டைல் */
+        .label { color: #800000; font-size: 13px; display: block; margin-bottom: 5px; }
+        
+        /* கிராண்ட் டோட்டல் பகுதி */
+        .total-row td { text-align: left; padding-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Subject Code</th>
+                <th rowspan="2">Subject Name</th>
+                <th rowspan="2">Max. Marks</th>
+                <th colspan="3">Marks Obtained In Figures</th>
+                <th rowspan="2">Total in Words</th>
+            </tr>
+            <tr>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>DFS012-101</td><td class="left-align">Fire Science and Technology</td><td>100</td><td>00</td><td>XX</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-102</td><td class="left-align">Fire Prevention and Investigation</td><td>100</td><td>00</td><td>XX</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-103</td><td class="left-align">Fire Protection and Survey</td><td>100</td><td>00</td><td>XX</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-104</td><td class="left-align">Fire Extinction and Control</td><td>100</td><td>00</td><td>XX</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-105</td><td class="left-align">Industrial Safety Management</td><td>100</td><td>00</td><td>XX</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-106</td><td class="left-align">Practical I</td><td>100</td><td>XX</td><td>00</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-107</td><td class="left-align">Practical II</td><td>100</td><td>XX</td><td>00</td><td>00</td><td>Zero Zero</td></tr>
+            <tr><td>DFS012-108</td><td class="left-align">Practical III</td><td>100</td><td>XX</td><td>00</td><td>00</td><td>Zero Zero</td></tr>
+            
+            <tr class="total-row">
+                <td colspan="2">
+                    <span class="label">Grand Total</span>
+                    000
+                </td>
+                <td colspan="5">
+                    <span class="label">in Words</span>
+                    Zero Hundred Zero Zero
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="margin-top: -2px;"> <tr>
+            <td style="width: 35%;">
+                <span class="label">Month and Year of Examination</span>
+                May 2020
+            </td>
+            <td style="width: 20%;">
+                <span class="label">No. of Subject Offered</span>
+                T5+P3=8
+            </td>
+            <td style="width: 15%;">
+                <span class="label">Result</span>
+                PASS
+            </td>
+            <td style="width: 15%;">
+                <span class="label">Percentage</span>
+                00.00%
+            </td>
+            <td style="width: 15%;">
+                <span class="label">Grade</span>
+                (Grade)
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

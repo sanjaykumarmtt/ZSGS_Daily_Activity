@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    Width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-container {
+    background-color: rgb(46, 44, 44);
+
+    color: black;
+    width: 80%;
+    height: 80%;
+    border: 2px solid rgb(130, 119, 119);
+    border-radius: 5px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    
+    background-color: rgb(225, 216, 216);
+    border: 2px solid rgb(130, 119, 119);
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+     /* transition: all 0.3s ease; */
+
+}
+
+.pricing-card:hover {
+    /* transform: scale(1.1); */
+    background-color: rgb(203, 57, 150);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+#pricing-card-1 {
+    animation: rotate 2s ease-in infinite;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+#pricing-card-2 {
+    animation: rotate 2s ease infinite;
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+
+#pricing-card-3 {
+    animation: rotate 2s ease-in-out infinite;
+    width: 28%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.pricing-card h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.pricing-card p {
+    margin: 0;
+    font-size: 18px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(111, 109, 109);
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+button:hover {
+    background-color: rgb(27, 217, 217);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+ul li:hover{
+    color:rgb(27, 217, 217);
+    font-size: 16px;
+}
+@keyframes rotate {
+     0% {
+         transform: translateY(-10px);
+     }
+
+     50% {
+         transform: translateY(10px);
+     }
+
+     100% {
+         transform: translateY(-10px);
+     }
+
+ }

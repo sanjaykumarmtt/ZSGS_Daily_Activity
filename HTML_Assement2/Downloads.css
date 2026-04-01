@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/assate/sanjaylogo.png);
+}
+
+.downloads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.matkaSet {
+    border: 3px solid rgb(121, 96, 63);
+    width: 60vw;
+    height: 200vh;
+}
+
+.header {
+    display: grid;
+    width: 70vw;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+    padding: 3%;
+}
+
+.Tital {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(93, 48, 48);
+}
+
+.header_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: rgb(93, 48, 48);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 2px solid #b38600;
+    text-align: center;
+}
+
+td {
+    border: 2px solid #b38600;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.label {
+    color: #800000;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+}
+.tabl2{
+    margin-top:3%;
+}
+th,td {
+    border: 1px solid #d9a04a;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    Width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 60%;
+    height: 50%;
+    border: 2px solid black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+i{
+    font-size: 100px;
+    transition: all 0.3s ease;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+    
+    color: blue;
+}
+#whatsapp:hover {
+    transform: scale(1.1);
+    
+    color: rgb(39, 189, 39);
+}
+
+#instagram:hover {
+    transform: scale(1.1);
+    --yellow: #fdf497;
+    --orange: #fd5949;
+    --pink: #d6249f;
+    --blue: #285AEB;
+    background: radial-gradient(circle at 30% 107%, var(--yellow) 0%, var(--yellow) 5%, var(--orange) 45%, var(--pink) 60%, var(--blue) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tiktok:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#github:hover{
+    transform: scale(1.1);
+    color: white;
+}

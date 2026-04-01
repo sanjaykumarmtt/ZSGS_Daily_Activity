@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.headerMeenu ol {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.headerMeenu ol li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+}
+
+.headerMeenu ol li a:hover {
+    transform: scale(1.2);
+}
+
+.Home {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    width: 100%;
+    height: 500px;
+}
+.HomeContent{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.HomeContent h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.HomeContent p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.HomeImage img {
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+.headAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    margin-right: 100px;
+    width: 200vh;
+    height: 500px;
+}
+
+.headAboutImage img {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.headAboutContent h1 {
+    font-size: 40px;
+    width: 50%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.projectContent{
+    width: 90%;
+    height: 450px;
+    border: 2px solid white;
+}
+.projectTital{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.ImplementProject{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project1{
+    border: 3px solid white;
+     width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+.project1:hover {
+    transform: scale(1.1);
+}
+.project1 img{
+    margin-top: 10px;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+
+}
