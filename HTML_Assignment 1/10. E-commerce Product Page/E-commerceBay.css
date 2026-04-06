@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    align-items: center;
+}
+.logo_imageheader img{
+    width: 85%;
+    padding: 10px;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Ratings{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.Rating-summary{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: mediumturquoise;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.Rating-summary:hover{
+    transform: scale(1.05);
+    background-color: rgb(52, 50, 192);
+    color: white;
+}
+.reviewer-name{
+    font-weight: bold;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    color: white;
+    font: bold;
+    background-color: rgb(52, 50, 192);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: mediumturquoise;
+    color: black;
+    transform: scale(1.05);
+}

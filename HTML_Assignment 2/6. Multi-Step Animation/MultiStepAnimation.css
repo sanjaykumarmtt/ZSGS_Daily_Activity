@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #ca5050;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box {
+    0% {
+        left: -200px;
+        transform: rotate(0deg) scale(1);
+    }
+
+    25% {
+        left: 200px;
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        left: 200px;
+        transform: rotate(360deg) scale(1);
+        background-color: #3498db;
+    }
+    75% {
+        left: 200px;
+        transform: rotate(360deg) scale(1);
+        background-color: #e74c3c;
+    }
+    100% {
+        left: 200px;
+        transform: rotate(360deg) scale(2);
+        background-color: #e74c3c;
+    }
+}
