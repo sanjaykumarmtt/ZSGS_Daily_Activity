@@ -7,10 +7,13 @@ import java.util.List;
 public class _3Sum {
 
 	public static void main(String[] args) {
-		List<List<Integer>>  list=new ArrayList<>();
-		int nums[]= {-1,0,1,2,-1,-4};
-		threeSum(nums,list);
-		System.out.println(list);
+//		List<List<Integer>>  list=new ArrayList<>();
+//		int nums[]= {-1,0,1,2,-1,-4};
+//		threeSum(nums,list);
+//		System.out.println(list);
+		String s="A";
+		int a=s.charAt(0);
+		System.out.println(a);
 	}
 	public static void threeSum(int nums[],List<List<Integer>> list) {
 		Arrays.sort(nums);

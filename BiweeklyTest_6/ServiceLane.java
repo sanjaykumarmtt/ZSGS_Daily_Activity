@@ -9,7 +9,7 @@ public class ServiceLane {
 		// TODO Auto-generated method stub
 		//width = [2, 3, 1, 2, 3, 2, 3, 3]
 	// cases = [[0, 3], [4, 6], [6, 7], [3, 5], [0, 7]]
-
+		System.out.println(Math.abs(Math.abs(-10)));
 	}
 
 	public static List<Integer> serviceLane(int n, List<List<Integer>> cases, List<Integer> width) {
@@ -32,5 +32,4 @@ public class ServiceLane {
 
 		return res;
 	}
-
 }
